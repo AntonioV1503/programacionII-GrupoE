@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="formpractica.css">
+</head>
+<body>
+    <form name="FORMULARIO">
+    <!--Titulo-->
+    Completar:
+    <br>
+    <!--Color-->
+    Elija un color:
+    <input type="color" name="colorelegido" value="#000000">
+    <br>
+    <!--Mensaje-->
+    Escriba un mensaje <br>
+    <textarea id=mensaje name="mensaje"  cols="50" rows="5">Por favor, escriba aqui</textarea> <br>
+    <!--Opciones-->
+    Elija una opcion: <br>
+    <select name="Opciones">
+        <OPTION selected>Java
+        <OPTION value="C++">C++
+        <OPTION value="PYTHON">Python
+    </select>
+    <br>
+    <input type=checkbox name="1ro" value=1ro>1ro.
+    <input type=checkbox name="2do" value="2do">2do.
+    <input type=checkbox name="3ro" value="3ro">3ro. <br>
+    Rellene las opciones siguientes: <br>
+    <!--Fecha-->
+    Elija una fecha:
+    <input type="date" name="fecha">
+    <br>
+    <!--Fichero-->
+    Elija un fichero:
+    <input type="file" name="fichero">
+    <br>
+    <select name="lista de opciones" size="4">
+    <option value="1ro">1ro</option>
+    <option value="2do">2do</option>
+    <option value="3ro">3ro</option>
+    <option value="4to">4to</option>
+    </select>
+    <br>
+    <input type=submit name="enviar">
+    <input type=reset><br>
+    </form>
+</body>
+</html>
